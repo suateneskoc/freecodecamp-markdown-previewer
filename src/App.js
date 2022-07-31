@@ -34,6 +34,12 @@ const App = () => {
         >
           <ReactMarkdown>{markdown}</ReactMarkdown>
         </div>
+        <p className="text-center">
+          View code on{" "}
+          <a href="https://github.com/suateneskoc/freecodecamp-markdown-previewer">
+            Github
+          </a>
+        </p>
       </div>
     </div>
   );
